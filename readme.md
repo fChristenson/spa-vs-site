@@ -53,6 +53,8 @@ React even tells you that this option is what it was designed for.
 
 > React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. - [1]
 
+This option is perfect for all websites that need to enrich the experience but do not need to become a full SPA.
+
 ## SPA
 
 The full SPA is the last option we want to consider.
