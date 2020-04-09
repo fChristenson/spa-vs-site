@@ -21,9 +21,9 @@ Sometimes, but only sometimes, do we want to build an SPA.
 
 The fully static site is by far the simplest.
 There is no dynamic content.
-No need to change the information on the page between user visits.
+There is no need to change the information on the page between user visits.
 
-Perfect use cases for this options are:
+Perfect use cases for this option are:
 
 * A blog
 * A event website
@@ -35,11 +35,11 @@ Perfect use cases for this options are:
 Sometimes we can't show the same information to every user.
 When this happens we need to consider if we can use the same html and just update the information on the page.
 
-Perfect use cases for this options are:
+Perfect use cases for this option are:
 
 * A web shop
 * A learning platform
-* A video streaming platform
+* A admin tool
 
 ## Website with Javascript components
 
@@ -64,6 +64,7 @@ This power comes at the expense of added complexity and performance costs.
 Perfect use cases for this option are:
 
 * A email client
+* A calendar
 * A analytics platform
 * A online IDE
 

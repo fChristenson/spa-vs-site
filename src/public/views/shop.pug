@@ -1,0 +1,11 @@
+html
+  head
+    link(rel="stylesheet", href="/main.css")
+  body
+    include ./partials/includes/header
+    main
+      ul(class="products")
+        each product in products
+          li
+            a(href=`/shop/product/${product.id}`)
+              img(class="products__product", src=product.image)
