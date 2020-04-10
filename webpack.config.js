@@ -1,5 +1,4 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
@@ -22,11 +21,5 @@ module.exports = {
         loader: "ts-loader"
       }
     ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      filename: "view.html",
-      template: path.resolve(__dirname, "src", "public", "views", "view.html")
-    })
-  ]
+  }
 };

@@ -19,9 +19,8 @@ Sometimes, but only sometimes, do we want to build an SPA.
 
 ## The static website
 
-The fully static site is by far the simplest.
+The fully static site is by far the simplest and most performant solution.
 There is no dynamic content.
-There is no need to change the information on the page between user visits.
 
 Perfect use cases for this option are:
 

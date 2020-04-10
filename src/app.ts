@@ -35,5 +35,5 @@ app.get("/blog/:post", (req: express.Request, res: express.Response) => {
 });
 
 app.all("*", (req: express.Request, res: express.Response) => {
-  res.sendFile(path.resolve(distDir, "view.html"));
+  res.sendFile(path.resolve(__dirname, "public", "views", "view.html"));
 });
