@@ -1,4 +1,4 @@
-# SPA vs website 
+# What type of website should I make?
 
 ## What we will cover
 
@@ -16,7 +16,6 @@ Sometimes we need to add some dynamic information to our website with html templ
 Sometimes we want to enrich our website with Javascript components.
 Sometimes, but only sometimes, do we want to build an SPA.
 
-
 ## The static website
 
 The fully static site is by far the simplest and most performant solution.
@@ -24,10 +23,10 @@ There is no dynamic content.
 
 Perfect use cases for this option are:
 
-* A blog
-* A event website
-* A wiki website
-* An image gallery
+- A blog
+- A event website
+- A wiki website
+- An image gallery
 
 ## Html templating (server side rendering)
 
@@ -36,9 +35,9 @@ When this happens we need to consider if we can use the same html and just updat
 
 Perfect use cases for this option are:
 
-* A web shop
-* A learning platform
-* A admin tool
+- A web shop
+- A learning platform
+- A admin tool
 
 ## Website with Javascript components
 
@@ -62,10 +61,10 @@ This power comes at the expense of added complexity and performance costs.
 
 Perfect use cases for this option are:
 
-* A email client
-* A calendar
-* A analytics platform
-* A online IDE
+- A email client
+- A calendar
+- A analytics platform
+- A online IDE
 
 ## References
 
